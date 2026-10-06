@@ -1,0 +1,13 @@
+{
+  "name": "@peow/api",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test:unit": "echo \"no tests yet\" && exit 0"
+  },
+  "dependencies": {
+    "@peow/shared": "workspace:*"
+  }
+}
