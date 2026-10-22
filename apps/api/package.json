@@ -8,6 +8,13 @@
     "test:unit": "echo \"no tests yet\" && exit 0"
   },
   "dependencies": {
-    "@peow/shared": "workspace:*"
+    "@peow/shared": "workspace:*",
+    "dotenv": "^18.0.7",
+    "kysely": "^0.29.6",
+    "pg": "^8.23.1"
+  },
+  "devDependencies": {
+    "@types/pg": "^8.23.1",
+    "tsx": "^4.23.15"
   }
 }

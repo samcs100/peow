@@ -3,5 +3,5 @@ packages:
   - "packages/*"
   - "e2e"
 
-onlyBuiltDependencies:
-  - esBuild
+allowBuilds:
+  esbuild: true
